@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SYFG3B62FV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SYFG3B62FV');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вікторини з Категорії - Знання для всіх</title>
+    <meta name="description" content="Дивіться вікторини та тести з категорії на YouTube-каналі Знання для всіх. Цікаво для всіх!">
+    <meta name="keywords" content="вікторини, тести, знання для всіх, YouTube">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo.png" alt="Логотип">
+            </a>
+            <div class="youtube-icon">
+                <a href="https://www.youtube.com/@ЗнанняДляВсіхТак" target="_blank">
+                    <img src="youtube-icon.png" alt="YouTube">
+                </a>
+            </div>
+        </div>
+        <div class="header-center">
+            <p class="welcome-text">ВІТАЄМО НА КАНАЛІ</p>
+            <h1><a href="index.html">ЗНАННЯ ДЛЯ ВСІХ</a></h1>
+            <p class="subtitle">Тести й вікторини - для всієї родини!</p>
+            <p class="slogan">Перевірте свої знання!</p>
+        </div>
+        <div class="header-right">
+            <div id="subscribers" class="subscribers"></div>
+            <a href="https://www.youtube.com/@ЗнанняДляВсіхТак?sub_confirmation=1" target="_blank" class="subscribe-btn">Підписатися</a>
+        </div>
+    </header>
+    <div class="divider"></div>
+    <div class="category-buttons">
+        <a href="category.html?category=Географія" class="category-btn">Географія</a>
+        <a href="category.html?category=Історія" class="category-btn">Історія</a>
+        <a href="category.html?category=Біблія" class="category-btn">Біблія</a>
+        <a href="category.html?category=Україна" class="category-btn">Україна</a>
+        <a href="category.html?category=Загальні знання" class="category-btn">Загальні знання</a>
+        <a href="category.html?category=Логіка" class="category-btn">Логіка</a>
+        <a href="category.html?category=Що зайве" class="category-btn">Що зайве</a>
+        <a href="category.html?category=Не програєш" class="category-btn">Не програєш</a>
+    </div>
+    <div class="category-videos">
+        <section class="category-description">
+            <h3 id="category-title"></h3>
+            <p id="category-description"></p>
+        </section>
+        <div id="category-videos"></div>
+    </div>
+    <footer>
+        <div class="footer-left">
+            <div class="footer-youtube-icon">
+                <a href="https://www.youtube.com/@ЗнанняДляВсіхТак" target="_blank">
+                    <img src="youtube-icon.png" alt="YouTube">
+                </a>
+            </div>
+            <p><a href="mailto:znanniadliavsikh@gmail.com">znanniadliavsikh@gmail.com</a></p>
+        </div>
+        <div class="footer-center">
+            <button id="categories-btn">Категорії</button>
+            <ul id="categories-list" style="display: none;">
+                <li><a href="category.html?category=Географія">Географія</a></li>
+                <li><a href="category.html?category=Історія">Історія</a></li>
+                <li><a href="category.html?category=Біблія">Біблія</a></li>
+                <li><a href="category.html?category=Україна">Україна</a></li>
+                <li><a href="category.html?category=Загальні знання">Загальні знання</a></li>
+                <li><a href="category.html?category=Логіка">Логіка</a></li>
+                <li><a href="category.html?category=Що зайве">Що зайве</a></li>
+                <li><a href="category.html?category=Не програєш">Не програєш</a></li>
+            </ul>
+            <div class="footer-links">
+                <a href="about.html">Про нас</a>
+                <a href="contact.html">Контакти</a>
+                <a href="collaboration.html">Співпраця</a>
+                <a href="privacy.html">Політика конфіденційності</a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <a href="index.html">
+                <img src="logo.png" alt="Логотип" class="footer-logo">
+            </a>
+            <p>© 2025 Знання для всіх</p>
+        </div>
+    </footer>
+    <script src="category.js"></script>
+</body>
+</html>
