@@ -1,7 +1,7 @@
 // Масив API-ключів для ротації
 const API_KEYS = [
-    'AIzaSyCMkqckTDk8jps-42J3bWqUswr3VGenYIo',
-    'AIzaSyCMkqckTDk8jps-42J3bWqUswr3VGenYIo',
+     'AIzaSyBIsnxOgHVW7AbYsYLZ6yMUF8f3PZFQFqc',
+    'AIzaSyBUIKh8TbT05XmLQTsQq9aXwf0RsiB-GR0',
 ];
 let currentKeyIndex = 0;
 
